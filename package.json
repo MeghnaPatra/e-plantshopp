@@ -1,0 +1,23 @@
+{
+  "name": "e-plantshopp",
+  "version": "1.0.0",
+  "description": "E-commerce plant shopping site",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.0.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3",
+    "react-scripts": "4.0.3"
+  },
+  "author": "Your Name",
+  "license": "ISC"
+}
